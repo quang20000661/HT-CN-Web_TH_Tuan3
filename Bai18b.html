@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container {
+        margin: auto;
+        width: 70%;
+        height: 700px;
+        box-shadow: 10px 10px 10px 10px gray;
+        padding: 10px;
+        background-color: rgb(134, 187, 248);
+        font-size: x-large;
+    }
+    
+    #s1 {
+        font-size: 15px;
+        margin: 0px 5px 5px 5px;
+        border: 100px;
+        padding: 15px;
+        background: red;
+        color: white;
+    }
+    
+    input[type="submit"] {
+        font-size: 15px;
+        width: auto;
+        background: red;
+        color: #fff;
+        padding: 15px;
+    }
+</style>
+
+<body>
+    <div id="container">
+        <p>Browser
+            <select name="" id="">
+
+                </select> <br> Username:
+            <input type="text"><br> Encryption:
+
+            <select name="" id="">
+                    <option value="">2048(High Grade)</option>
+                </select> <br>
+
+            <input type="range" name="ageInputName" id="ageInputId" value="50" min="1" max="100" oninput="ageOutputId.value = ageInputId.value">
+            <output name="ageOutputName" id="ageOutputId">50</output><br>
+
+            <input type="text" value="50"><br> Birthday:
+
+            <input type="date"> <br> Select your favorite color:
+
+            <input type="color" value="#ff0000"><br> Birthday(Month and Year):
+
+            <input type="month"><br> Select a week:
+
+            <input type="week"><br> Select a time:
+
+            <input type="time"><br> Birthday (date and time):
+
+            <input type="datetime"><br> Email
+
+            <input type="email"> <br> Search Google:
+
+            <input type="search"> <br> Telephone:
+
+            <input type="text"> <br> Add your homepage:
+
+            <input type="text"> <br> Gửi đến:
+
+            <select name="department" id="s1">
+                    <option value="">Phòng đào tạo</option>
+                    <option value="">Phòng tài chính</option>
+                </select><br>
+
+            <input type="submit" value="Submit">
+            <input type="submit" value="Clear Form">
+        </p>
+        <p>
+            <b>Note:</b> The datalist tag is not supported in Safari or IE9 (and earlier).
+        </p>
+    </div>
+</body>
+
+</html>
